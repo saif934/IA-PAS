@@ -1,2 +1,3 @@
-# IA-PAS
-Projet de l'intelligence artificielle éducative "Plan d’Assistance aux Succès"
+# IA P.A.S.
+
+Intelligence Artificielle éducative pour aider les élèves à réussir.

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P.A.S. - Plan d’Assistance aux Succès</title>
+</head>
+<body>
+    <h1>Bienvenue sur P.A.S. 🧠</h1>
+    <p>Pose ta question ci-dessous :</p>
+    <form action="/ask" method="post">
+        <input type="text" name="message" placeholder="Ta question ici" required>
+        <button type="submit">Envoyer</button>
+    </form>
+    {% if response %}
+        <p><strong>Réponse :</strong> {{ response }}</p>
+    {% endif %}
+</body>
+</html>
